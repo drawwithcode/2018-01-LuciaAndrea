@@ -81,7 +81,7 @@ function draw() {
 	//body decoration
 noStroke();
 	strokeWeight(5);
-fill(0,255,255);
+fill(255,255,0);
 	ellipse(217,343,20,20);
 	ellipse(239,343,20,20);
 	ellipse(261,343,20,20);
@@ -108,8 +108,84 @@ fill(0,255,255);
 	ellipse(283,432,20,20);
 
 	strokeWeight(5);
-	stroke(255,255,255);
-	line(217, 440, 283, 440);
+	stroke(0,255,255);
+	line(217, 452, 283, 452);
+
+//arms
+noStroke();
+fill(255,0,0);
+rect(305, 325, 20,20);
+ellipseMode(CORNER);
+fill(255,165,0);
+ellipse(326,325,20,20);
+fill(255,255,0);
+rect(347, 325, 20,20);
+fill(0,255,0);
+ellipse(347,347,20,20);
+fill(0,0,255);
+rect(347, 368, 20,20);
+fill(75,0,130);
+ellipse(368,368,20,20);
+fill(143,0,255);
+rect(389, 368, 20,20);
+fill(255,0,0);
+rect(175, 325, 20,20);
+
+ellipseMode(CORNER);
+fill(255,165,0);
+ellipse(154,325,20,20);
+fill(255,255,0);
+rect(133, 325, 20,20);
+fill(0,255,0);
+ellipse(133,304,20,20);
+fill(0,0,255);
+rect(133, 283, 20,20);
+fill(75,0,130);
+ellipse(112, 283,20,20);
+fill(143,0,255);
+
+rect(91, 283, 20,20);
+
+
+
+
+ellipseMode(CENTER);
+
+//ears
+
+
+stroke(0,0,0);
+strokeWeight(5);
+line(170, 220, 330, 220);
+noStroke();
+ellipse(170, 220, 20, 20);
+ellipse(330, 220, 20, 20);
+
+//feet
+
+stroke(0,0,0);
+strokeWeight(5);
+line(170, 452, 330, 452);
+noStroke();
+ellipse(170, 452, 20, 20);
+ellipse(330, 452, 20, 20);
+
+//Hat
+stroke(0,0,0);
+strokeWeight(5);
+line(250, 150, 250, 285);
+noStroke();
+fill(255,255,0);
+
+ellipse(250, 150, 45, 45);
+
+strokeWeight(5);
+stroke(0,0,0);
+fill(255,255,255);
+ellipse(250, 150, 30, 30);
+
+fill(0,0,0);
+ellipse(250, 150, 5, 5);
 
 
 	//Head
